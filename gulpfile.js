@@ -52,8 +52,8 @@ elixir(mix => {
         progressive: true,
         interlaced: true
     })
-    .browserSync({ 
-        proxy: 'pizza.dev',
+    .browserSync({
+        proxy: 'homestead.app',
         notify: false
     })
     .compress();
