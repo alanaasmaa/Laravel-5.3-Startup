@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ config('app.lang', 'en') }}">
+<html lang="{{ config('app.locale', 'en') }}">
     <head>
         @include('layouts.app.meta') 
         <title>{{ config('app.name', 'Laravel') }} - @yield('title')</title>
